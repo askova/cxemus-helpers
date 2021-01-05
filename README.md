@@ -3,4 +3,4 @@ additional materials:
 
 cxemus.Excel.xlsm - Excel assistant (macros)
 
-cxemus.Illustrator.jsx - Adove Illustrator assistant (GUI scripts)
+cxemus.Illustrator.jsx - Adobe Illustrator assistant (GUI scripts)
