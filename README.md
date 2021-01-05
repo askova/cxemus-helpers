@@ -1,6 +1,5 @@
 # cxemus-helpers
-additional materials
-
+additional materials:
 
 cxemus.Excel.xlsm - Excel assistant (macros)
 
