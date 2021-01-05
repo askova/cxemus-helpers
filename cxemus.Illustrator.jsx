@@ -371,35 +371,9 @@ var version = group2.add("statictext", undefined, undefined, {name: "version"});
 
 
    
-   /* changelog:
-        + 0.20.0000
-        + 0.20.0907
-            - change structure file 'coodrinates.json'
-        + 0.20.0908
-            - add func 'replacesOldDevices' (from layer 'devices')
-        ? 0.20.0929
-            - add func 'compareSchemes' (need opened two schemes)
-        + 0.20.1213
-            ! New structure SVG-file
-            + exportCoordinates:
-                + 100
-            + replacesOldDevices
-            + createBaseScheme
-            + createArtboards
-            + add searchGridCell__frame()
-        + 0.20.1220
-            ! New design
-            + createStructure <-- createBaseScheme
-            + replaceProxy <-- replacesOldDevices
-        + 0.20.1222
-            + exportCoordinates:
-                + 200
-                + 300
-                + 350             
-            
-        ToDo:
-            - compareSchemes
-            - setPrefGrid() // set grid
+   /* ToDo:
+        - compareSchemes
+        - setPrefGrid() // set grid
     */
 
     dialog.show();
