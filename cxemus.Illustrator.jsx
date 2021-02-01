@@ -1,5 +1,5 @@
 ﻿/**
-* @@@BUILDINFO@@@ cxemus.Illustrator.jsx !Version! Tue Dec 22 2020 17:57:13 GMT+0300
+* @@@BUILDINFO@@@ cxemus.Illustrator edit.jsx !Version! Mon Feb 01 2021 17:43:30 GMT+0300
 */
 
 //~ https://www.adobe.com/content/dam/acom/en/devnet/illustrator/pdf/Illustrator_Scriptin_Reference_JavaScript_cc.pdf
@@ -158,9 +158,10 @@ function showGUI() {
     ------------------------------------------------------------------------------------------------------------------------------
 */
 
+
 /*
 Code for Import https://scriptui.joonas.me — (Triple click to select): 
-{"activeId":63,"items":{"item-0":{"id":0,"type":"Dialog","parentId":false,"style":{"text":"cxemus","preferredSize":[480,320],"margins":16,"orientation":"column","spacing":10,"alignChildren":["left","top"],"varName":null,"windowType":"Dialog","creationProps":{"su1PanelCoordinates":false,"maximizeButton":false,"minimizeButton":false,"independent":false,"closeButton":true,"borderless":false,"resizeable":false},"enabled":true}},"item-49":{"id":49,"type":"Progressbar","parentId":85,"style":{"enabled":true,"varName":"pg","preferredSize":[0,4],"alignment":"fill","helpTip":"progress status"}},"item-50":{"id":50,"type":"Button","parentId":0,"style":{"enabled":true,"varName":"create_structure","text":"1. Create structure for schema","justify":"left","preferredSize":[0,0],"alignment":"left","helpTip":"Create new layers, move elements"}},"item-51":{"id":51,"type":"Button","parentId":0,"style":{"enabled":true,"varName":"export_coordinates","text":"2. Export coordinates","justify":"center","preferredSize":[0,0],"alignment":"left","helpTip":"Calculate position elements, create file 'coordinates.json'"}},"item-54":{"id":54,"type":"StaticText","parentId":90,"style":{"enabled":false,"varName":"copyright","creationProps":{"truncate":"none","multiline":false,"scrolling":false},"softWrap":false,"text":"Alexey Kovalev © 2020","justify":"right","preferredSize":[0,0],"alignment":null,"helpTip":""}},"item-55":{"id":55,"type":"StaticText","parentId":85,"style":{"enabled":true,"varName":"info","creationProps":{"truncate":"none","multiline":true,"scrolling":false},"softWrap":false,"text":"...","justify":"left","preferredSize":[0,0],"alignment":"fill","helpTip":"status"}},"item-60":{"id":60,"type":"EditText","parentId":85,"style":{"enabled":true,"varName":"log","creationProps":{"noecho":false,"readonly":true,"multiline":true,"scrollable":true,"borderless":false,"enterKeySignalsOnChange":false},"softWrap":false,"text":"1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n","justify":"left","preferredSize":[0,128],"alignment":"fill","helpTip":"log"}},"item-61":{"id":61,"type":"Button","parentId":0,"style":{"enabled":true,"varName":"create_artboards","text":"Create Artboards","justify":"left","preferredSize":[0,0],"alignment":"left","helpTip":"Сreates Artboards by cell name with base canvas size"}},"item-63":{"id":63,"type":"StaticText","parentId":90,"style":{"enabled":false,"varName":"version","creationProps":{"truncate":"none","multiline":false,"scrolling":false},"softWrap":false,"text":"VER.YY.MMDD","justify":"right","preferredSize":[0,0],"alignment":null,"helpTip":"VER.YY.MMDD"}},"item-79":{"id":79,"type":"DropDownList","parentId":0,"style":{"enabled":false,"varName":"cb_active_doc","text":"DropDownList","listItems":"Item 1, -, Item 2","preferredSize":[0,0],"alignment":"fill","selection":0,"helpTip":"Active document"}},"item-85":{"id":85,"type":"Group","parentId":0,"style":{"enabled":true,"varName":null,"preferredSize":[0,0],"margins":0,"orientation":"column","spacing":10,"alignChildren":["left","center"],"alignment":"fill"}},"item-90":{"id":90,"type":"Group","parentId":0,"style":{"enabled":true,"varName":null,"preferredSize":[0,0],"margins":0,"orientation":"column","spacing":10,"alignChildren":["right","center"],"alignment":"fill"}},"item-93":{"id":93,"type":"Panel","parentId":0,"style":{"enabled":true,"varName":"p_selected","creationProps":{"borderStyle":"etched","su1PanelCoordinates":false},"text":"","preferredSize":[0,0],"margins":10,"orientation":"column","spacing":10,"alignChildren":["left","top"],"alignment":"fill"}},"item-94":{"id":94,"type":"DropDownList","parentId":93,"style":{"enabled":true,"varName":"cb_source_doc","text":"DropDownList","listItems":"Item 1, -, Item 2","preferredSize":[0,0],"alignment":"fill","selection":0,"helpTip":"Select source document"}},"item-95":{"id":95,"type":"Button","parentId":93,"style":{"enabled":true,"varName":"replace_proxy","text":"Replace proxy-element","justify":"center","preferredSize":[0,0],"alignment":"fill","helpTip":"Change the proxy element in the active document"}},"item-96":{"id":96,"type":"Button","parentId":93,"style":{"enabled":true,"varName":"compare_schemes","text":"Comparison of schemes","justify":"center","preferredSize":[0,0],"alignment":"fill","helpTip":"Get a list of cell names for printing in the log"}}},"order":[0,79,50,51,93,94,95,96,61,85,49,55,60,90,54,63],"settings":{"importJSON":true,"indentSize":false,"cepExport":false,"includeCSSJS":true,"functionWrapper":false,"compactCode":false,"showDialog":false,"afterEffectsDockable":false,"itemReferenceList":"None"}}
+{"activeId":97,"items":{"item-0":{"id":0,"type":"Dialog","parentId":false,"style":{"text":"cxemus","preferredSize":[480,320],"margins":16,"orientation":"column","spacing":10,"alignChildren":["left","top"],"varName":null,"windowType":"Dialog","creationProps":{"su1PanelCoordinates":false,"maximizeButton":false,"minimizeButton":false,"independent":false,"closeButton":true,"borderless":false,"resizeable":false},"enabled":true}},"item-49":{"id":49,"type":"Progressbar","parentId":85,"style":{"enabled":true,"varName":"pg","preferredSize":[0,4],"alignment":"fill","helpTip":"progress status"}},"item-50":{"id":50,"type":"Button","parentId":0,"style":{"enabled":true,"varName":"create_structure","text":"1. Create structure for schema","justify":"left","preferredSize":[0,0],"alignment":"left","helpTip":"Create new layers, move elements"}},"item-51":{"id":51,"type":"Button","parentId":0,"style":{"enabled":true,"varName":"export_coordinates","text":"2. Export coordinates","justify":"center","preferredSize":[0,0],"alignment":"left","helpTip":"Calculate position elements, create file 'coordinates.json'"}},"item-54":{"id":54,"type":"StaticText","parentId":90,"style":{"enabled":false,"varName":"copyright","creationProps":{"truncate":"none","multiline":false,"scrolling":false},"softWrap":false,"text":"Alexey Kovalev © 2020","justify":"right","preferredSize":[0,0],"alignment":null,"helpTip":""}},"item-55":{"id":55,"type":"StaticText","parentId":85,"style":{"enabled":true,"varName":"info","creationProps":{"truncate":"none","multiline":true,"scrolling":false},"softWrap":false,"text":"...","justify":"left","preferredSize":[0,0],"alignment":"fill","helpTip":"status"}},"item-60":{"id":60,"type":"EditText","parentId":85,"style":{"enabled":true,"varName":"log","creationProps":{"noecho":false,"readonly":true,"multiline":true,"scrollable":true,"borderless":false,"enterKeySignalsOnChange":false},"softWrap":false,"text":"1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n","justify":"left","preferredSize":[0,128],"alignment":"fill","helpTip":"log"}},"item-61":{"id":61,"type":"Button","parentId":0,"style":{"enabled":true,"varName":"create_artboards","text":"Create Artboards","justify":"left","preferredSize":[0,0],"alignment":"left","helpTip":"Сreates Artboards by cell name with base canvas size"}},"item-63":{"id":63,"type":"StaticText","parentId":90,"style":{"enabled":false,"varName":"version","creationProps":{"truncate":"none","multiline":false,"scrolling":false},"softWrap":false,"text":"VER.YY.MMDD","justify":"right","preferredSize":[0,0],"alignment":null,"helpTip":"VER.YY.MMDD"}},"item-79":{"id":79,"type":"DropDownList","parentId":0,"style":{"enabled":false,"varName":"cb_active_doc","text":"DropDownList","listItems":"Item 1, -, Item 2","preferredSize":[0,0],"alignment":"fill","selection":0,"helpTip":"Active document"}},"item-85":{"id":85,"type":"Group","parentId":0,"style":{"enabled":true,"varName":null,"preferredSize":[0,0],"margins":0,"orientation":"column","spacing":10,"alignChildren":["left","center"],"alignment":"fill"}},"item-90":{"id":90,"type":"Group","parentId":0,"style":{"enabled":true,"varName":null,"preferredSize":[0,0],"margins":0,"orientation":"column","spacing":10,"alignChildren":["right","center"],"alignment":"fill"}},"item-93":{"id":93,"type":"Panel","parentId":0,"style":{"enabled":true,"varName":"p_selected","creationProps":{"borderStyle":"etched","su1PanelCoordinates":false},"text":"","preferredSize":[0,0],"margins":10,"orientation":"column","spacing":10,"alignChildren":["left","top"],"alignment":"fill"}},"item-94":{"id":94,"type":"DropDownList","parentId":93,"style":{"enabled":true,"varName":"cb_source_doc","text":"DropDownList","listItems":"Item 1, -, Item 2","preferredSize":[0,0],"alignment":"fill","selection":0,"helpTip":"Select source document"}},"item-95":{"id":95,"type":"Button","parentId":93,"style":{"enabled":true,"varName":"replace_proxy","text":"Replace proxy-element","justify":"center","preferredSize":[0,0],"alignment":"fill","helpTip":"Change the proxy element in the active document"}},"item-96":{"id":96,"type":"Button","parentId":93,"style":{"enabled":true,"varName":"compare_schemes","text":"Comparison of schemes","justify":"center","preferredSize":[0,0],"alignment":"fill","helpTip":"Get a list of cell names for printing in the log"}},"item-97":{"id":97,"type":"Button","parentId":0,"style":{"enabled":true,"varName":"arrange_devices","text":"Arrange devices","justify":"center","preferredSize":[0,0],"alignment":null,"helpTip":"Arrange all devices across the entire canvas"}}},"order":[0,79,50,51,93,94,95,96,61,97,85,49,55,60,90,54,63],"settings":{"importJSON":true,"indentSize":false,"cepExport":false,"includeCSSJS":true,"functionWrapper":false,"compactCode":false,"showDialog":false,"afterEffectsDockable":false,"itemReferenceList":"None"}}
 */ 
 
 // DIALOG
@@ -225,6 +226,10 @@ var create_artboards = dialog.add("button", undefined, undefined, {name: "create
     create_artboards.justify = "left"; 
     create_artboards.alignment = ["left","top"]; 
 
+var arrange_devices = dialog.add("button", undefined, undefined, {name: "arrange_devices"}); 
+    arrange_devices.helpTip = "Arrange all devices across the entire canvas"; 
+    arrange_devices.text = "Arrange devices"; 
+
 // GROUP1
 // ======
 var group1 = dialog.add("group", undefined, {name: "group1"}); 
@@ -278,7 +283,7 @@ var version = group2.add("statictext", undefined, undefined, {name: "version"});
 */
 
     version.hide();
-    version.text = "0.20.1222";
+    version.text = "0.21.0201";
     dialog.text += ": " + version.text;     
     
     pg.value = 0;
@@ -353,6 +358,15 @@ var version = group2.add("statictext", undefined, undefined, {name: "version"});
         info.text = createArtboards(doc)
         printLog(info.text)
     }
+
+
+    arrange_devices.onClick = function () {
+        start_function = arrange_devices.text
+        printLog("\n--- {1}".format(SCRIPT_ABORT, start_function))
+        info.text = arrangeDevices(doc, artboard)
+        printLog(info.text)
+    }
+
 
     compare_schemes.onClick = function () {
         start_function = compare_schemes.text
@@ -573,20 +587,12 @@ function exportCoordinates(doc, artboard) {
     printConsole("{0}: {1}".format(_name, nameAsXmlID))
     progress(10)
     
-    var stepCanvas = null
-    _name = GRID_CELL__FRAME
-    var frame = searchGridCell__frame(doc, _name)
-    if (frame != null) {
-        //~     calculate base canvas step (size)
-        stepCanvas = frame.width
-        printLog("Point step: {1}px".format(SCRIPT_ABORT, STEP_ONE_POINT))
-        printLog("Column step: {1}px".format(SCRIPT_ABORT, Math.floor(stepCanvas, 2)))
-        //~     setPrefGrid(19.2)
+    var stepsCanvas = searchCanvasStep(doc)
+    if (typeof stepsCanvas == "string") {
+        return stepsCanvas; // error
     }
-    else {
-        return "{0}\nGroup '{1}' not found.".format(SCRIPT_ABORT, _name);
-    }
-
+    var stepColumn, stepRow = null
+    stepColumn = stepsCanvas[0], stepRow = stepsCanvas[1]
   
     printLog('')
     _name = SCHEMA
@@ -600,7 +606,7 @@ function exportCoordinates(doc, artboard) {
     
     
     // calculate coordinates device
-    var devices = calculateCoordinatesChilden(_groups, artboard.artboardRect, stepCanvas)
+    var devices = calculateCoordinatesChilden(_groups, artboard.artboardRect, stepColumn)
     printLog(".creates {2} pair coordinates".format(SCRIPT_ABORT, null, devices.length))
     progress(80)
 
@@ -625,7 +631,7 @@ function calculateCoordinatesChilden(groups, canvasRect, canvasStep) {
     _groups = groups
     var objs = []
     var obj, childs = null
-    var column, row = null
+    var column, point = null
     var coords = []
     for (var i = 0; i < _groups.length; i++) {
         _group = _groups[i]
@@ -655,8 +661,80 @@ function calculateCoordinatesChilden(groups, canvasRect, canvasStep) {
 
 function calculateCoordinates(objPos, canvasRect, stepCanvas) {
     var column = Math.floor((Math.abs(objPos[0] - canvasRect[0]) / stepCanvas))
-    var point = Math.floor((Math.abs(objPos[1]  - canvasRect[1])) / STEP_ONE_POINT)
+    var point = Math.floor((canvasRect[1] - objPos[1]) / STEP_ONE_POINT)
     return [column, point]
+}
+
+
+function arrangeDevices(doc, artboard) {
+    progress(5)
+    var _groups, _group, _layer, _name = null
+    
+    var stepsCanvas = searchCanvasStep(doc)
+    if (typeof stepsCanvas == "string") {
+        return stepsCanvas; // error
+    }
+    var stepColumn, stepRow = null
+    stepColumn = stepsCanvas[0], stepRow = stepsCanvas[1]
+    
+    var countColumns, countPoints = null
+    countColumns = Math.round(Math.abs(artboard.artboardRect[0] - artboard.artboardRect[2]) / stepColumn)
+    countPoints = Math.round(Math.abs(artboard.artboardRect[1] - artboard.artboardRect[3]) / STEP_ONE_POINT)
+    //print([countColumns, countPoints], CONSOLE)
+    
+    var points = []
+    for (var i = 0; i < countPoints; i++) {
+        points.push(i)
+    }
+    var vacantCanvas = []
+    for (var i = 0; i < countColumns; i++) {
+        vacantCanvas.push(points.slice())
+    }
+    //print(vacantCanvas[1][124], CONSOLE) 
+    progress(10)
+  
+    _name = SCHEMA
+    _layer = getItemByName(doc.layers, _name)
+    if (_layer == null) {
+        return "{0}\nLayer '{1}' not found".format(SCRIPT_ABORT, _name);
+    }
+    var schema = _layer
+    _groups = schema.groupItems
+    progress(15)
+
+    //_groups = [getItemByName(schema.groupItems, "YAMAHA"), ]
+    //print(_groups, CONSOLE) 
+    
+    var coords = []
+    var column, point, height_in_points = null
+    var start_point, index_column, x, y = null
+    var column_name, row_name = null
+    for (var i = 0; i < _groups.length; i++) {
+        _group = _groups[i]
+        //print(_group.name, CONSOLE) 
+        
+        if(_group.hidden != true && _group.name != '') {
+            coords = calculateCoordinates(_group.position, artboard.artboardRect, stepColumn)
+            column = coords[0], point = coords[1]
+            height_in_points = Math.floor(_group.height / STEP_ONE_POINT) + 1
+            index_column = getVacantColumn(vacantCanvas, height_in_points)
+            
+            start_point = vacantCanvas[index_column][0]
+            x = (index_column * stepColumn) + artboard.artboardRect[0] + stepColumn/2 - _group.width/2
+            y = artboard.artboardRect[1] - (start_point * STEP_ONE_POINT)
+            _group.position = [x, y]
+            
+            vacantCanvas = removePoints(vacantCanvas, index_column, height_in_points)
+            column_name = getNameColumn(index_column, REGION__DEFAULT)
+            row_name = getNameRow(Math.floor((start_point * STEP_ONE_POINT) / stepRow))
+          
+            printLog("[{2}{3}] .move '{1}'".format(SCRIPT_ABORT, _group.name, column_name, row_name))
+        }
+        progress(1, "increment")
+    }
+
+    progress(100)
+    return SUCCESS
 }
 
 function createArtboards(doc) {    
@@ -735,6 +813,23 @@ function searchGridCell__frame(doc, name) {
     }
     return null
 }
+function searchCanvasStep(doc) {
+    var _name = GRID_CELL__FRAME
+    var frame = searchGridCell__frame(doc, _name)
+    if (frame != null) {
+        var w, h = null
+        w = frame.width, h = frame.height
+        //~     calculate base canvas step (size)
+        printLog("Point step: {1}px".format(SCRIPT_ABORT, STEP_ONE_POINT))
+        printLog("Column step: {1}px".format(SCRIPT_ABORT, Math.floor(frame.width, 2)))
+        printLog("Row step: {1}px".format(SCRIPT_ABORT, Math.floor(frame.height, 2)))
+        //~     setPrefGrid(19.2)
+        return [w, h]
+    }
+    else {
+        return "{0}\nGroup '{1}' not found.".format(SCRIPT_ABORT, _name);
+    } 
+}
 
 function searchSchemaGroup(doc) {
     var _groups, _group, _layer, _name = null
@@ -762,6 +857,30 @@ function searchSchemaGroup(doc) {
 
 
 //~ candys
+function getVacantColumn(arr, height_in_points) {
+    var index_column = null
+    var column = null
+    for (var i = 0; i < arr.length; i++) {
+        column = arr[i]
+        if (column.length >= height_in_points) {
+            index_column = i
+            break;
+        }
+    }
+    return index_column
+}
+function removePoints(arrarr, column, count_points) {
+    if (arrarr.length > column) {
+        var arr = arrarr[column]
+        if(arr.length < count_points) {
+            printLog("removePoints(): array out of range({1}). Column: {0}".format(column, arr.length))
+        }
+        arr.splice(0, count_points)
+        arrarr[column] = arr
+    }
+    return arrarr
+}
+
 function getAllOpenDocs() {
     var list = []
     var docs = app.documents
@@ -951,9 +1070,8 @@ function setPrefGrid(step) {
     printConsole(prefs.getRealPreference(parameter))
 }
 
-
-//~ https://community.adobe.com/t5/after-effects/create-a-txt-file-in-extendscript/td-p/9645024?page=1
 function writeFile(fileObj, fileContent, encoding) {
+    //~ https://community.adobe.com/t5/after-effects/create-a-txt-file-in-extendscript/td-p/9645024?page=1
     //~ by Tomas_Sinkunas | Adobe Community Professional
     encoding = encoding || "utf-8";
     fileObj = (fileObj instanceof File) ? fileObj : new File(fileObj);
@@ -966,7 +1084,6 @@ function writeFile(fileObj, fileContent, encoding) {
     fileObj.close();
     return fileObj;
 }
-
 function isInArray(value, array) {
 //~   https://stackoverflow.com/questions/7378228/check-if-an-element-is-present-in-an-array
     return array.indexOf(value) > -1;
