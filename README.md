@@ -9,3 +9,4 @@ additional materials:
   + Export coordinates (calculate position elements, create file 'coordinates.json')
   + Replace proxy-element (change the proxy element in the active document)
   + Create Artboards (creates Artboards by cell name with base canvas size)
+  + Arrange devices (arrange all devices across the entire canvas)
